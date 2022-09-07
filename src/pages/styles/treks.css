@@ -1,0 +1,51 @@
+.trekHeader {
+  position: relative;
+  background-image: url(../../Assets/458758633.jpg);
+  background-color: var(--base-color);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 50px;
+  z-index: -1;
+}
+.trekHeader .layer {
+  background-color: rgba(4, 47, 65, 0.788);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trekHeader h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+}
+.trekHeader .duo {
+  color: var(--red);
+  margin: 0 15px;
+}
+
+/* privacy */
+.privacy h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.privacy p{
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .trekHeader h2,
+  .duo {
+    text-align: center;
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,35 @@
+.blogPage {
+  text-align: center;
+}
+.blogImg {
+  width: 100%;
+  height: 580px;
+  margin-bottom: 50px;
+}
+.blogImg img {
+  width: 100%;
+  height: 100%;
+}
+.blogPage .title h2 {
+  font-size: 50px;
+  color: var(--base-color);
+}
+.blogPage .title .duo {
+  color: var(--red);
+  font-weight: 700;
+}
+.blogPage .paragraph {
+  text-align: justify;
+  padding: 10px 100px;
+}
+@media only screen and (max-width: 500px) {
+  .blogPage .paragraph {
+    padding: 10px 30px;
+  }
+  .blogPage .title h2 {
+    font-size: 30px;
+  }
+  .blogPage .title .duo {
+    font-size: 23px;
+  }
+}

@@ -1,0 +1,85 @@
+.Footer {
+  background: linear-gradient(0deg, rgba(0, 17, 76, 0.6), rgba(0, 17, 76, 0.6)),
+    url(https://himalayandreamtreks.in/wp-content/uploads/2021/02/Untitled-design-39-min.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 0 30px;
+}
+
+.Footer .cards {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Footer .CardSec {
+  border: none;
+  box-shadow: 20px 20px 100px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  text-align: center;
+  width: 24rem;
+  padding: 1rem;
+}
+.Footer .footerLink{
+  padding: 0.5rem 0;
+}
+.Footer .footerSocials {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.Footer .CardSec{
+  text-align: justify;
+}
+/* .Footer .CardSec .title{
+  text-align: center;
+} */
+.Footer .CardSec a {
+  color: #fff;
+}
+.Footer .CardSec a:hover {
+  color: var(--red);
+}
+.Footer .CardSec span {
+  cursor: pointer;
+  color: var(--red);
+}
+.Footer .CardSec p {
+  color: #fff;
+}
+.Footer .CardSec span:hover {
+  color: #fff;
+}
+.Footer .caption {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.Footer .caption p {
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 500px) {
+  .Footer .cards {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .Footer .CardSec {
+    width: 19rem;
+  }
+  .Footer .caption {
+    flex-direction: column;
+  }
+  .Footer .caption h4 {
+    font-size: 14px;
+  }
+}

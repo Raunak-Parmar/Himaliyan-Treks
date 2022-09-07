@@ -1,0 +1,54 @@
+.TestimonialSection {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+.mobile {
+  display: none;
+}
+.TestimonialSection .TestCardComponent {
+  padding: 1rem;
+  width: 18rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 9px 11px 14px 0px rgba(0, 0, 0, 0.1);
+}
+.TestimonialSection .title {
+  color: var(--red);
+  font-size: 22px;
+}
+.TestimonialSection .stars {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.TestimonialSection .CardImages {
+  height: 10vh;
+  width: 5vw;
+  border-radius: 50%;
+  align-self: center;
+  justify-self: center;
+}
+.TestimonialSection span {
+  color: var(--base-color);
+}
+
+@media only screen and (max-width: 500px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+
+  .TestimonialSection .TestCardComponent{
+    width: 90%;
+  }
+  .TestimonialSection .CardImages{
+    height: 15vh;
+    width: 15vh;
+  }
+}

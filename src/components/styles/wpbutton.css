@@ -1,0 +1,62 @@
+.contacts {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  right: 0;
+  margin: 0 20px 35px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* .hYBuTn {
+  background: var(--red) !important;
+  border: none !important;
+  outline: none !important;
+  border-color: transparent;
+}
+.hYBuTn:is(:hover, :focus, :active) {
+  background: rgb(17, 219, 118) !important;
+} */
+.wpBtn {
+  background-color: #0078aa;
+  border: none;
+  border-radius: 110%;
+  font-size: 0.9rem;
+  padding: 5px 12px 7px;
+  text-align: center;
+}
+.redBtn {
+  background-color: var(--red);
+  border: none;
+  border-radius: 90%;
+  padding: 5px 12px 7px;
+  text-align: center;
+}
+.redBtn:hover {
+  background-color: var(--red);
+}
+.redBtn:focus {
+  background-color: var(--red);
+}
+.socialBtn {
+  display: block;
+  margin: 10px;
+  padding: 9px;
+  background-color: #0078aa;
+  border: none;
+  border-radius: 90%;
+}
+.socialBtn span {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wpBtn:hover {
+  background-color: #0078aa;
+}
+.wpBtn:focus {
+  background-color: #0078aa;
+}

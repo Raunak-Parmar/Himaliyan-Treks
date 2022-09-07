@@ -1,0 +1,241 @@
+.TrkHeader {
+  height: 70vh;
+  width: 100vw;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+.TrkHeader img {
+  width: 100%;
+  height: 100%;
+}
+.TrkHeader .headings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.TrkHeader .headerH2 {
+  /* position: absolute; */
+  top: 0;
+  left: 450px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 30%);
+  font-family: "Poppins", Sans-serif;
+  font-size: 65px;
+  padding: 70px 0 0 0;
+}
+.TrkHeader .headerH3 {
+  /* position: absolute; */
+  top: 150px;
+  left: 220px;
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 5.2px;
+  margin: 26px 0px 0px 0px;
+}
+
+.trekDets {
+  background: rgba(1, 97, 141, 0.664);
+  opacity: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  margin-bottom: 40px;  
+}
+.trekDets .icon {
+  font-size: 20px;
+  color: rgba(233, 222, 16, 0.901);
+  margin-right: 5px;
+}
+.trekDets .trekHeadDetails {
+  color: #fff;
+  margin-bottom: 0;
+}
+.trekDets div {
+  margin: 0 15px;
+}
+.Panel {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 150px 0 100px;
+}
+.Panel h1 {
+  color: var(--base-color);
+  font-size: 30px;
+}
+.Panel .duo {
+  color: var(--red);
+}
+.LeftPane {
+  width: 60%;
+}
+.SidebarBook .collapseBar {
+  border-radius: 10px;
+  border: none;
+  background-color: var(--red);
+  color: #ffffff;
+  width: 20rem;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.Collapsible__trigger {
+  border-radius: 10px;
+  border: none;
+  background-color: var(--red);
+  width: 20rem;
+  padding: 10px 116px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.Collapsible div {
+  padding: 8px;
+  background-color: rgb(229, 169, 113);
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 20px;
+}
+.TrekGallery {
+  margin-bottom: 3rem;
+  padding: 0 100px;
+}
+.GalleryImages {
+  text-align: center;
+}
+.GalleryImages img {
+  margin: 0 10px;
+  height: 250px;
+  width: 350px;
+}
+
+.SidebarBook .BookNowBtn {
+  border-radius: 10px;
+  border: none;
+  background-color: var(--base-color);
+  color: #ffffff;
+  width: 9rem;
+  height: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+.SidebarBook .BarsBook {
+  border-radius: 10px;
+  border: none;
+  background-color: var(--base-color);
+  color: #ffffff;
+  width: 20rem;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.SidebarBook .BarsBook.email {
+  margin-bottom: 50px;
+}
+
+.SidebarBook .DescCards {
+  /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzn6ib9ZdtFEH55aywkYpQX_IVcivDj7JEw&usqp=CAU); */
+  background-color: var(--base-color);
+  background-size: cover;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-bottom: 2rem;
+  width: 18rem;
+}
+.SidebarBook .DescCards a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.call {
+  font-size: 23px;
+}
+.divOr {
+  border-radius: "50%";
+  background-color: "#000";
+  color: "#fff";
+  width: "3.7rem";
+  height: "3rem";
+  font-size: "24px";
+  text-align: "center";
+}
+.BookNow .formBtn {
+  background-color: var(--base-color);
+  border: none;
+}
+.BookNow .formBtn:hover {
+  background-color: var(--red);
+}
+@media (max-width: 500px) {
+  .GalleryImages img {
+    height: 150px;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .mobileGallery {
+    display: none;
+  }
+  .TrekGallery {
+    padding: 0;
+    margin: 20px 45px;
+  }
+  .TrkHeader .headerH2 {
+    left: 40px;
+    font-size: 55px;
+  }
+  .TrkHeader .headerH3 {
+    left: 0;
+    font-size: 16px;
+  }
+  .trekDets {
+    padding: 10px 2px;
+  }
+  .trekDets .icon {
+    font-size: 12px;
+  }
+  .trekDets .trekHeadDetails {
+    font-size: 8px;
+  }
+  .Panel {
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .Panel .LeftPane {
+    order: 2;
+    width: 90%;
+  }
+  .Panel .LeftPane h1 {
+    display: inline;
+    width: 100%;
+  }
+  .Panel .SidebarBook {
+    order: 1;
+  }
+  .BookNow {
+    display: none;
+   
+  }
+  .LeftPane p {
+    width: 100%;
+  }
+  .SidebarBook .BookNowBtn {
+    width: 18rem;
+  }
+}

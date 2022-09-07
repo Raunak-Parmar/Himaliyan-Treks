@@ -1,0 +1,42 @@
+.distreks {
+  margin: 20px 10px;
+  display: flex;
+}
+.distreks .distrekCard {
+  position: relative;
+  height: 380px;
+  margin: 0 10px;
+  width: 330px;
+  color: #fff;
+}
+
+.distrekCard img {
+  width: 100%;
+  height: 100%;
+}
+
+.distrekCard  .distrekName {
+  font-size: 15px;
+  color: #fff;
+  background-color: var(--base-color);
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+}
+.distrekCard .distrekName:hover {
+  background-color: var(--red);
+}
+@media only screen and (max-width: 500px){
+  .distreks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+}
+@media only screen and (max-width: 390px){
+  .distreks .distrekCard{
+    width: 300px;
+  }
+}
