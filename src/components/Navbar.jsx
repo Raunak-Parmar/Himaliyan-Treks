@@ -171,7 +171,7 @@ function NavbarCompo() {
 
               <Nav className="socials">
                 {/* social media links if any */}
-                <Nav.Link href="https://www.instagram.com/the_himalayan_exploration/">
+                <Nav.Link href="https://www.facebook.com/profile.php?id=100039894385738">
                   <FaFacebookF className="socialIcon" />
                 </Nav.Link>
                 <Nav.Link href="https://www.instagram.com/the_himalayan_exploration/">
