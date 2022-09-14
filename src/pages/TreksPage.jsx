@@ -66,25 +66,25 @@ function TreksPage(props) {
           <h2 className="headerH2">{dataValue.title}</h2>
           <h3 className="headerH3">{dataValue.img_desp}</h3>
         </div>
+        <section className="trekDets">
+            <div style={{ display: "flex" }}>
+            <FontAwesomeIcon className="icon" icon={faLocation} />
+            <p className="trekHeadDetails">Region-{dataValue.location}</p>
+            </div>
+            <div style={{ display: "flex" }}>
+            <FontAwesomeIcon className="icon" icon={faCampground} />
+            <p className="trekHeadDetails">Base Camp-{dataValue.camp_location}</p>
+            </div>
+            <div style={{ display: "flex" }}>
+            <FontAwesomeIcon className="icon" icon={faCalendarDay} />
+            <p className="trekHeadDetails">Days - {dataValue.days}</p>
+            </div>
+            <div style={{ display: "flex" }}>
+            <FontAwesomeIcon className="icon" icon={faBuilding} />
+            <p className="trekHeadDetails">Metre - {dataValue.height}</p>
+            </div>
+        </section>
       </div>
-      <section className="trekDets">
-        <div style={{ display: "flex" }}>
-          <FontAwesomeIcon className="icon" icon={faLocation} />
-          <p className="trekHeadDetails">Region-{dataValue.location}</p>
-        </div>
-        <div style={{ display: "flex" }}>
-          <FontAwesomeIcon className="icon" icon={faCampground} />
-          <p className="trekHeadDetails">Base Camp-{dataValue.camp_location}</p>
-        </div>
-        <div style={{ display: "flex" }}>
-          <FontAwesomeIcon className="icon" icon={faCalendarDay} />
-          <p className="trekHeadDetails">Days - {dataValue.days}</p>
-        </div>
-        <div style={{ display: "flex" }}>
-          <FontAwesomeIcon className="icon" icon={faBuilding} />
-          <p className="trekHeadDetails">Metre - {dataValue.height}</p>
-        </div>
-      </section>
       <section className="Panel">
         <div className="LeftPane">
           <h1 id="briefDescription">
