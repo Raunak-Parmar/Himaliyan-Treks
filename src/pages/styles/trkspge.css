@@ -4,6 +4,7 @@
   text-align: center;
   position: relative;
   z-index: -1;
+  margin-bottom: 100px;
 }
 .TrkHeader img {
   width: 100%;
@@ -42,12 +43,16 @@
 }
 
 .trekDets {
-  background: rgba(1, 97, 141, 0.664);
+  position: absolute;
+  bottom: 0px;
+  width: 100vw;
+  height: 50px;
+  background: rgba(0, 17, 76, 0.50);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 6px;
-  margin-bottom: 40px;  
+  z-index: 69;
 }
 .trekDets .icon {
   font-size: 20px;
